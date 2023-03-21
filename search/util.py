@@ -233,14 +233,6 @@ def manhattanDistance( xy1, xy2 ):
 """
 
 
-def fillUtil(data, items):
-    """
-    Pushes a list of items inside a given data structure
-    """
-    for item in items:
-        data.push(item)
-
-
 class Counter(dict):
     """
     A counter keeps track of counts for a set of keys.
